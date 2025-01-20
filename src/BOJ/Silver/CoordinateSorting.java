@@ -29,9 +29,9 @@ public class CoordinateSorting {
     }
 }
 
-class Point implements Comparable<Point>{
+class Pointi implements Comparable<Point>{
     int x, y;
-    public Point(int x, int y){
+    public Pointi(int x, int y){
         this.x = x;
         this.y = y;
     }
