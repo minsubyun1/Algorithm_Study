@@ -1,4 +1,4 @@
-package BOJ.Bronze;
+package BOJ.Silver;
 
 import java.util.HashMap;
 import java.util.Map;
