@@ -13,6 +13,7 @@ public class SymmetricDifference {
         int a_size = Integer.parseInt(st.nextToken());
         int b_size = Integer.parseInt(st.nextToken());
 
+
         Set<Integer> aSet = new HashSet<>();
         Set<Integer> bSet = new HashSet<>();
 
