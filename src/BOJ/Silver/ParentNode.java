@@ -29,7 +29,7 @@ public class ParentNode {
         }
 
 
-        DFS(1);
+        dfs(1);
 
         for (int i = 2; i <= N; i++) {
             System.out.println(parent[i]);
@@ -37,13 +37,13 @@ public class ParentNode {
 
     }
 
-    private static void DFS(int Node){
+    private static void dfs(int Node){
         visited[Node] = true;
 
         for(int neighbor : A[Node]){
             if(!visited[neighbor]){
                 parent[neighbor] = Node; // 현재 노드 부모로 등록
-                DFS(neighbor);
+                dfs(neighbor);
             }
         }
     }
