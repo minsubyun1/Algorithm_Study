@@ -26,7 +26,7 @@ operations의 원소는 큐가 수행할 연산을 나타냅니다.
 이러면 중복 숫자를 처리할 수 없고, O(N log N) 정렬을 매 insert 마다 수행하기 때문에 시간복잡도 면에서도 비효율적이었음.
 
 자동 정렬 및 최댓값과 최솟값을 지원하는 **TreeMap** 자료구조를 사용하여 해결함.
-TreeMap은 정렬된 Map으로, 각 숫자의 개수를 저장하며,
+TreeMap은 정렬된 Map으로, map의 특성을 활용하여(map.getOrDefault(num , 0) + 1)) 각 숫자의 개수를 저장할 수 있음.
 
 - 최댓값 → map.lastKey()
 
