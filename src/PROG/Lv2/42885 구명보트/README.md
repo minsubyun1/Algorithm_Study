@@ -1,5 +1,5 @@
-# [Level 2] 조이스틱 - 42860
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42860)
+# [Level 2] 구명보트 - 42885
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42885)
 
 ## 문제 설명
 무인도에 갇힌 사람들을 구명보트를 이용하여 구출하려고 합니다. 구명보트는 작아서 한 번에 최대 2명씩 밖에 탈 수 없고, 무게 제한도 있습니다.
